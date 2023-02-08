@@ -1,3 +1,3 @@
 # Asignatura: Usabilidad y Accesibilidad
-# Integrantes
+## Integrantes
   Carla Fernanda Flores Gonzales
