@@ -1,5 +1,5 @@
 # Asignatura: Usabilidad y Accesibilidad
 ## Integrantes
-  Carla Fernanda Flores Gonzales
-  Aday Oval Afonso
-  Carlos Ravina
+  - Carla Fernanda Flores Gonzales
+  - Aday Oval Afonso
+  - Carlos Ravina
