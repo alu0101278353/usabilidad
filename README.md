@@ -2,7 +2,7 @@
 # Proyecto: Diseño FRONTEND para una APP WEB DE APUNTES PARA ESTUDIANTES
 ## Integrantes
   - Carla Fernanda Flores Gonzales
-  - Aday Oval Afonso
+  - Adahi Oval Afonso
   - Carlos Ravina
   
   
