@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Subir archivos</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="inicio.html">Inicio</a></li>
+				<li><a href="subir_apuntes.html">Subir apuntes</a></li>
+				<li><a href="ver_apuntes.html">Ver apuntes</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="subir-archivos">
+			<h2>Subir archivos</h2>
+			<form action="upload.php" method="post" enctype="multipart/form-data">
+				<label for="archivo">Selecciona un archivo:</label>
+				<input type="file" id="archivo" name="archivo"><br><br>
+				<input type="submit" value="Subir archivo">
+			</form>
+		</section>
+	</main>
+</body>
+</html>
