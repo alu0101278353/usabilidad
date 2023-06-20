@@ -2,34 +2,29 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import NavLink from 'react-bootstrap/esm/NavLink';
 
 export const Footer = () => {
   return (
     <footer className="bg-body-tertiary text-light" data-bs-theme="dark">
       <Container>
         <Row>
-          <Col md={4} className="mb-3">
-            <h5>Columna 1</h5>
-            <ul className="list-unstyled">
-              <li>Elemento 1</li>
-              <li>Elemento 2</li>
-              <li>Elemento 3</li>
+          <Col md={4} className="mb-3 mt-4">
+            <NavLink href='/' aria-label='Enlace a Inicio' style={{ fontSize: "30px", marginTop:"10%" }}>Web Apuntes</NavLink>
+          </Col>
+          <Col md={4} className="mb-3 mt-4">
+            <h5 className='text-start'>Apuntes</h5>
+            <ul className="list-group text-start">
+              <li><NavLink href='/'>Inicio</NavLink></li>
+              <li><NavLink href='/ver_apuntes'>Ver Apuntes</NavLink></li>
+              <li><NavLink href='/subir_apuntes'>Subir Apuntes</NavLink></li>
             </ul>
           </Col>
-          <Col md={4} className="mb-3">
-            <h5>Columna 2</h5>
-            <ul className="list-unstyled">
-              <li>Elemento 1</li>
-              <li>Elemento 2</li>
-              <li>Elemento 3</li>
-            </ul>
-          </Col>
-          <Col md={4} className="mb-3">
-            <h5>Columna 3</h5>
-            <ul className="list-unstyled">
-              <li>Elemento 1</li>
-              <li>Elemento 2</li>
-              <li>Elemento 3</li>
+          <Col md={4} className="mb-3 mt-4">
+            <h5 className='text-start'>Servicios</h5>
+            <ul className="list-group text-start">
+              <li>Quiénes Somos</li>
+              <li>Contacto</li>
             </ul>
           </Col>
         </Row>

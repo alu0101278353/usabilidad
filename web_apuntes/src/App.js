@@ -1,8 +1,8 @@
 import './App.css';
 import { Route, Routes } from 'react-router';
 import { MenuNav } from './components/MenuNav';
-import { Contacto } from './pages/Contacto';
-import { Profile } from './pages/Profile';
+import { SubirApuntes } from './pages/SubirApuntes';
+import { VerApuntes } from './pages/VerApuntes';
 import { Home } from './pages/Home';
 import { Footer } from './components/Footer';
 
@@ -12,8 +12,8 @@ function App() {
       <MenuNav />
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='/perfil' element={<Profile />}/>
-        <Route path='/contacto' element={<Contacto />}/>
+        <Route path='/subir_apuntes' element={<SubirApuntes />}/>
+        <Route path='/ver_apuntes' element={<VerApuntes />}/>
       </Routes>
       <Footer />
     </div>
