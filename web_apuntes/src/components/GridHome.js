@@ -1,12 +1,12 @@
 import React from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import { Carta } from '../components/Carta'
+import { Carta } from './Carta'
 import Container from 'react-bootstrap/esm/Container'
 import Card from 'react-bootstrap/Card'
 import { NavLink } from 'react-bootstrap'
 
-export const Grid = () => {
+export const GridHome = () => {
   const data1 = {
     title: "Apuntes de Química",
     subject: "Química",
@@ -14,17 +14,17 @@ export const Grid = () => {
   }
   const data2 = {
     title: "Apuntes de Física",
-    subject: "Química",
+    subject: "Física",
     description: "Estos apuntes te ayudarán con las Leyes de Newton"
   }
   const data3 = {
     title: "Apuntes de Biología",
-    subject: "Química",
+    subject: "Biología",
     description: "Estos apuntes te ayudarán con la genética"
   }
   return (
     <Container className='mt-5 mb-5'>
-      <Row>
+      <Row className='mb-3'>
         <Col></Col>
         <Col>
           <Card border="light" className='shadow-none'>

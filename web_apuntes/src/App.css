@@ -45,7 +45,7 @@
   margin-left: 10%;
 }
 
-.card {
+.carta {
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
@@ -65,36 +65,36 @@
   transition: transform 0.3s
 }
 
-.card h2 {
+.carta h2 {
   grid-area: name;
   justify-self: center;
 }
 
-.card p:nth-of-type(1) {
+.carta p:nth-of-type(1) {
   grid-area: family;
 }
 
-.card p:nth-of-type(2) {
+.carta p:nth-of-type(2) {
   grid-area: calories;
 }
 
-.card p:nth-of-type(3) {
+.carta p:nth-of-type(3) {
   grid-area: fat;
 }
 
-.card p:nth-of-type(4) {
+.carta p:nth-of-type(4) {
   grid-area: sugar;
 }
 
-.card p:nth-of-type(5) {
+.carta p:nth-of-type(5) {
   grid-area: carbohydrates;
 }
 
-.card p:nth-of-type(6) {
+.carta p:nth-of-type(6) {
   grid-area: protein;
 }
 
-.card:hover {
+.carta:hover {
   transform: scale(1.1)
 }
 

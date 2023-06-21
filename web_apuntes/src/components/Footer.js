@@ -32,8 +32,8 @@ export const Footer = () => {
           <Col md={4} className="mb-3 mt-4">
             <h5 className='text-start'>Información</h5>
             <ul className="list-group text-start">
-              <li>Quiénes Somos</li>
-              <li>Contacto</li>
+              <li><NavLink href='/quienes_somos'>Quiénes Somos</NavLink></li>
+              <li><NavLink href='/quienes_somos'>Contacto</NavLink></li>
             </ul>
           </Col>
         </Row>

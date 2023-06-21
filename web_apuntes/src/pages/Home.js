@@ -1,12 +1,12 @@
 import React from 'react'
 import { Carrusel } from '../components/Carrusel'
-import { Grid } from '../components/Grid'
+import { GridHome } from '../components/GridHome'
 
 export const Home = () => {
   return (
-  <div>
+  <main>
     <Carrusel aria-label="Carrusel de apuntes"/>
-    <Grid />
-  </div>
+    <GridHome />
+  </main>
   )
 }
