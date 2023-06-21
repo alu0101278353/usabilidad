@@ -10,10 +10,10 @@ export const Home = () => {
     <Container>
       <Card className='mt-5 mb-5'>
         <Card.Body>
-          <Card.Title style={{ fontSize: "30px"}}>Web Apuntes</Card.Title>
+          <Card.Title style={{ fontSize: "30px"}}>Tus Apuntes</Card.Title>
           <Card.Text>En esta página podrás compartir tus apuntes y ver los de otras personas sobre diferentes materias.</Card.Text>
         </Card.Body>
-      </Card>
+      </Card> 
     </Container>
   </div>
   )
