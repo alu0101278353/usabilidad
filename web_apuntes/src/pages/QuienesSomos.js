@@ -9,7 +9,7 @@ export const QuienesSomos = () => {
   return (
     // <div>C O N T A C T A N O S</div>
     // <Container style={{ width: "500px", height: "600px" }}>
-    <Container>
+    <Container className='d-flex justify-content-center'>
       <Row>
         <Col xs={6} md={4}>
           <Image src= '../images/ESTUAP.svg'/>

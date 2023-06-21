@@ -61,7 +61,8 @@
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-bottom: 20px;
-  width: 500px;
+  width: 410px;
+  transition: transform 0.3s
 }
 
 .card h2 {
@@ -93,9 +94,13 @@
   grid-area: protein;
 }
 
+.card:hover {
+  transform: scale(1.1)
+}
+
 .imagen-carta{
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   position: absolute;
   left: 16px;
   top: 8px;

@@ -1,5 +1,5 @@
 import React from 'react'
-import imagen from '../images/carta-logo.svg'
+import imagen from '../images/carta-logo.png'
 
 export const ImagenCarta = () => {
   return (
