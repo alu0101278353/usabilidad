@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col'
 import { Carta } from './Carta'
 import Container from 'react-bootstrap/esm/Container'
 import Card from 'react-bootstrap/Card'
-import { NavLink } from 'react-bootstrap'
+import { NavLink, Tooltip, OverlayTrigger } from 'react-bootstrap'
 
 export const GridHome = () => {
   const data1 = {
@@ -44,9 +44,21 @@ export const GridHome = () => {
         <Col></Col>
       </Row>
       <Row>
-        <Col><NavLink  href='/ver_apuntes'><Carta data = {data1}/></NavLink></Col>
-        <Col><NavLink  href='/ver_apuntes'><Carta data = {data2}/></NavLink></Col>
-        <Col><NavLink  href='/ver_apuntes'><Carta data = {data3}/></NavLink></Col>
+        <Col>
+          <OverlayTrigger placement="bottom" overlay={<Tooltip>Disponibles en la página <strong>ver apuntes</strong></Tooltip>}>
+            <NavLink  href='/ver_apuntes'><Carta data = {data1}/></NavLink>
+          </OverlayTrigger>
+        </Col>
+        <Col>
+          <OverlayTrigger placement="bottom" overlay={<Tooltip>Disponibles en la página <strong>ver apuntes</strong></Tooltip>}>
+            <NavLink  href='/ver_apuntes'><Carta data = {data2}/></NavLink>
+          </OverlayTrigger>
+        </Col>
+        <Col>
+          <OverlayTrigger placement="bottom" overlay={<Tooltip>Disponibles en la página <strong>ver apuntes</strong></Tooltip>}>
+            <NavLink  href='/ver_apuntes'><Carta data = {data3}/></NavLink>
+          </OverlayTrigger>
+        </Col>
       </Row>
     </Container>
   )

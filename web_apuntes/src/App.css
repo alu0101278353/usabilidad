@@ -48,14 +48,8 @@
 .carta {
   position: relative;
   display: grid;
-  grid-template-columns: 1fr;
   grid-gap: 8px;
   justify-items: flex-start;
-  grid-template-areas: 
-    'name name'
-    'family calories'
-    'fat sugar'
-    'carbohydrates protein';
   background-color: #ededed;
   border-radius: 8px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
@@ -65,43 +59,19 @@
   transition: transform 0.3s
 }
 
-.carta h2 {
-  grid-area: name;
-  justify-self: center;
-}
-
-.carta p:nth-of-type(1) {
-  grid-area: family;
-}
-
-.carta p:nth-of-type(2) {
-  grid-area: calories;
-}
-
-.carta p:nth-of-type(3) {
-  grid-area: fat;
-}
-
-.carta p:nth-of-type(4) {
-  grid-area: sugar;
-}
-
-.carta p:nth-of-type(5) {
-  grid-area: carbohydrates;
-}
-
-.carta p:nth-of-type(6) {
-  grid-area: protein;
-}
-
 .carta:hover {
   transform: scale(1.1)
 }
 
-.imagen-carta{
+.imagen-carta {
   height: 30px;
   width: 30px;
   position: absolute;
   left: 16px;
   top: 8px;
+}
+
+.imagen-devs {
+  width: 100px;
+  height: 100px;
 }

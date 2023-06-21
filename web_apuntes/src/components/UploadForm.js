@@ -4,6 +4,7 @@ import { Form, Button } from 'react-bootstrap';
 export const UploadForm = () => {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
+  const [subject, setSubject] = useState('');
   const [file, setFile] = useState(null);
 
   const handleTitleChange = (e) => {
@@ -12,6 +13,10 @@ export const UploadForm = () => {
 
   const handleDescriptionChange = (e) => {
     setDescription(e.target.value);
+  };
+
+  const handleSubjectChange = (e) => {
+    setSubject(e.target.value);
   };
 
   const handleFileChange = (e) => {
@@ -32,6 +37,10 @@ export const UploadForm = () => {
       <Form.Group className="mb-3" controlId="title">
         <Form.Label>Título</Form.Label>
         <Form.Control type="text" value={title} onChange={handleTitleChange} placeholder='Título de ejemplo'/>
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="subject">
+        <Form.Label>Asignatura</Form.Label>
+        <Form.Control type="text" value={subject} onChange={handleSubjectChange} placeholder='Asignatura de tus apuntes' />
       </Form.Group>
       <Form.Group className="mb-3" controlId="description">
         <Form.Label>Descripción</Form.Label>

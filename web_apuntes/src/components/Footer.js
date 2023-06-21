@@ -41,7 +41,7 @@ export const Footer = () => {
         <Row>
           <Col>
             <p className="text-center">
-              &copy; {new Date().getFullYear()} Web Apuntes. Todos los derechos reservados.
+              &copy; {new Date().getFullYear()} ESTUAP. Todos los derechos reservados.
             </p>
           </Col>
         </Row>

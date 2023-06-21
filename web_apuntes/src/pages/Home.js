@@ -6,7 +6,7 @@ export const Home = () => {
   return (
   <main>
     <Carrusel aria-label="Carrusel de apuntes"/>
-    <GridHome />
+    <GridHome aria-label="Apuntes populares"/>
   </main>
   )
 }

@@ -2,25 +2,28 @@ import React from 'react'
 import { Contacto } from '../components/contacto'
 import { Card, Col, Row } from 'react-bootstrap'
 import Container from 'react-bootstrap/esm/Container'
-import Image from 'react-bootstrap/Image';
+import { Devs } from '../components/Devs';
 
 
 export const QuienesSomos = () => {
   return (
     // <div>C O N T A C T A N O S</div>
     // <Container style={{ width: "500px", height: "600px" }}>
-    <Container className='d-flex justify-content-center'>
+    <Container classname='d-flex justify-content-center'>
+      <Devs/>
       <Row>
-        <Col xs={6} md={4}>
-          <Image src= '../images/ESTUAP.svg'/>
+        <Col></Col>
+        <Col>
+        <Card style={{ width: "600px", marginTop: "100px", marginBottom: "100px" }}>
+          <Card.Body>
+            <p> C O N T A C T A N O S</p>
+            <Contacto/>
+          </Card.Body>
+        </Card>
         </Col>
+        <Col></Col>
       </Row>
-      <Card style={{ height: "400px", marginTop: "100px", marginBottom: "100px" }}>
-      <Card.Body>
-          <p> C O N T A C T A N O S</p>
-        <Contacto/>
-      </Card.Body>
-      </Card>
+
     </Container>
   )
 }

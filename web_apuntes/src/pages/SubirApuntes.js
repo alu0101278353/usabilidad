@@ -5,12 +5,22 @@ import { Card } from 'react-bootstrap'
 
 export const SubirApuntes = () => {
   return (
-    <Container style={{ width: "500px", height: "600px" }}>
-      <Card style={{ height: "400px", marginTop: "100px", marginBottom: "100px" }}>
+  <main>
+    <header style={{ width: "80%", marginLeft: "10%" }}>
+        <Card border="light" className='shadow-none'>
+          <Card.Body>
+            <Card.Title style={{ fontSize: "30px"}} className='border-bottom pb-4 mb-4'>Sube tus apuntes</Card.Title>
+            <Card.Text>Aquí puedes subir tus apuntes para poder compartirlos.</Card.Text>
+          </Card.Body>
+        </Card>
+    </header>
+    <Container style={{ width: "30%", marginLeft: "35%" }} className='mb-5 mt-3'>
+      <Card>
         <Card.Body>
           <UploadForm/>
         </Card.Body>
       </Card>
     </Container>
+  </main>
   )
 }
