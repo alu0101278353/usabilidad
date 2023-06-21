@@ -62,19 +62,15 @@ export const GridApuntes = () => {
 
   return (
     <Container className='mt-5 mb-5'>
-      <Row className='mb-3'>
-        <Col></Col>
-        <Col>
-          <Card border="light" className='shadow-none'>
-            <Card.Body>
-              <Card.Title style={{ fontSize: "30px"}} className='border-bottom pb-4 mb-4'>Todos los apuntes</Card.Title>
-              <Card.Text>Aquí están <strong>todos</strong> los apuntes disponibles en <strong>ESTUAP</strong> encuentra los que necesites aquí.</Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col></Col>
-      </Row>
-      <Row>
+      <header>
+        <Card border="light" className='shadow-none'>
+          <Card.Body>
+            <Card.Title style={{ fontSize: "30px"}} className='border-bottom pb-4 mb-4'>Todos los apuntes</Card.Title>
+            <Card.Text>Aquí están <strong>todos</strong> los apuntes disponibles en <strong>ESTUAP</strong> encuentra los que necesites aquí.</Card.Text>
+          </Card.Body>
+        </Card>
+      </header>
+      <Row className='mt-3'>
         {data1.map((apunte) => (
           <Col><Carta data = {apunte}/></Col>
         ))}
