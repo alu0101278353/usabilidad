@@ -18,6 +18,7 @@ function App() {
         <Route path='/ver_apuntes' element={<VerApuntes />}/>
         <Route path='/quienes_somos' element={<QuienesSomos />}/>
         <Route path='/faqs' element={<Faqs />} />
+        <Route path='/usabilidad' element={<Home />} />
       </Routes>
       <Footer />
     </div>
