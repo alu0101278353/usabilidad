@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/usabilidad/static/css/main.a38b384d.css",
+    "main.js": "/usabilidad/static/js/main.6774f4a1.js",
+    "static/js/787.44300034.chunk.js": "/usabilidad/static/js/787.44300034.chunk.js",
+    "static/media/carla.jpeg": "/usabilidad/static/media/carla.a48afe9dd42f0061f91f.jpeg",
+    "static/media/carlos.jpeg": "/usabilidad/static/media/carlos.ac354cab2cafa8242ae9.jpeg",
+    "static/media/adahi.jpeg": "/usabilidad/static/media/adahi.80dc4992c9405a183c40.jpeg",
+    "static/media/imgFaqs.png": "/usabilidad/static/media/imgFaqs.e0608ccb808efea5a910.png",
+    "static/media/carta-logo.png": "/usabilidad/static/media/carta-logo.2cfdf27072dfbc57e2d4.png",
+    "index.html": "/usabilidad/index.html",
+    "main.a38b384d.css.map": "/usabilidad/static/css/main.a38b384d.css.map",
+    "main.6774f4a1.js.map": "/usabilidad/static/js/main.6774f4a1.js.map",
+    "787.44300034.chunk.js.map": "/usabilidad/static/js/787.44300034.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a38b384d.css",
+    "static/js/main.6774f4a1.js"
+  ]
+}
