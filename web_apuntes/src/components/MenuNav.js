@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
+import { Buscador } from './buscador';
 
 export const MenuNav = () => {
   return (
@@ -22,6 +23,9 @@ export const MenuNav = () => {
             <Nav.Link href='/quienes_somos' aria-label='Quienes somos' className='menu-link'>Quienes Somos</Nav.Link>
           </Nav>
         </Navbar.Collapse>
+      </Container>
+      <Container style={{marginLeft: "1%", marginRight: "1%", marginTop: "1%"}}>
+        <Buscador/>
       </Container>
     </Navbar>
   )

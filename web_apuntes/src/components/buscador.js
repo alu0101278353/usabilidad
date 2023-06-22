@@ -4,14 +4,14 @@ import InputGroup from 'react-bootstrap/InputGroup';
 
 export const Buscador =() => {
   return (
-    <InputGroup className="mb-3">
+    <InputGroup className="mb-3" >
       <Form.Control
-          placeholder="Apuntes..."
+          placeholder="Busca ayuda..."
           aria-label="Buscador"
           aria-describedby="basic-addon2"
       />
       <Button variant="outline-secondary" id="button-addon2">
-        Button
+        Buscar
       </Button>
     </InputGroup>
   );

@@ -2,10 +2,17 @@ import React from 'react'
 import Container from 'react-bootstrap/esm/Container'
 import { UploadForm } from '../components/UploadForm'
 import { Card } from 'react-bootstrap'
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 export const SubirApuntes = () => {
   return (
   <main>
+    <Card.Text>
+      <Breadcrumb>
+        <Breadcrumb.Item href="#">Inicio</Breadcrumb.Item>
+        <Breadcrumb.Item active>Subir Apuntes</Breadcrumb.Item>
+      </Breadcrumb>
+    </Card.Text>
     <header style={{ width: "80%", marginLeft: "10%" }}>
         <Card border="light" className='shadow-none'>
           <Card.Body>

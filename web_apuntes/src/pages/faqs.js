@@ -1,38 +1,30 @@
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import React from 'react'
 import { Buscador } from '../components/buscador';
+import { GridFaqs } from '../components/GridFaqs';
+import { Card } from 'react-bootstrap';
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import Container from 'react-bootstrap/esm/Container'
 
 export const Faqs = () => {
   return (
     <div id='itemsX'>
-      <div id='BucadorInfo' >
+      <Card.Text>
+        <Breadcrumb>
+          <Breadcrumb.Item href="#">Inicio</Breadcrumb.Item>
+          <Breadcrumb.Item active>Preguntas frecuentes</Breadcrumb.Item>
+        </Breadcrumb>
+      </Card.Text>
+      <header>
+        <Card border="light" className='shadow-none'>
+          <Card.Body>
+            <Card.Title style={{ fontSize: "35px"}} className='border-bottom pb-4 mb-4'>¿Cómo podemos ayudarte?</Card.Title>
+          </Card.Body>
+        </Card>
+      </header>
+      <Container classname='d-flex justify-content-center'>
         <Buscador/>
-      </div>
-      <Row xs={1} md={2} className="g-4">
-      <Col>
-        <Card>
-          {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
-          <Card.Body>
-            <Card.Title> Gestor de apuntes</Card.Title>
-            <Card.Text>
-            Te enseño a visualizar, ordenar, subir y descargar todo el contenido dentro de tu perfil
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
-      <Col>
-      <Card>
-          {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
-          <Card.Body>
-            <Card.Title> Comunidad</Card.Title>
-            <Card.Text>
-            Descubre todo lo que la comunidad puede hacer por ti y cómo convertirte en el Top Wuoler de tu comunidad
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
-    </Row>
+      </Container>
+      <GridFaqs/>
     </div>
 
   );
