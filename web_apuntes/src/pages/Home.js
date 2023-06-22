@@ -2,6 +2,8 @@ import React from 'react'
 import { Carrusel } from '../components/Carrusel'
 import { GridHome } from '../components/GridHome'
 
+
+
 export const Home = () => {
   return (
   <main>
