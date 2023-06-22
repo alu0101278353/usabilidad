@@ -9,8 +9,9 @@ export const Footer = () => {
     <footer className="bg-body-tertiary text-light" data-bs-theme="dark">
       <Container>
         <Col md={12}>
-        <h3>AQUI ESTAN LOS APUNTES DE TU CLASE</h3>
-        <p>Todo muy ordenado. Con el plan de estudio oficial</p></Col>
+          <h3>AQUI ESTAN LOS APUNTES DE TU CLASE</h3>
+          <p>Todo muy ordenado. Con el plan de estudio oficial</p>
+        </Col>
         <Row>
           {/* <Col md={4} className="mb-3 mt-4">
             <NavLink href='/' aria-label='Enlace a Inicio' style={{ fontSize: "30px", marginTop:"10%" }}>Web Apuntes</NavLink>
