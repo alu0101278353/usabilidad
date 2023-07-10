@@ -20,6 +20,7 @@ function App() {
         <Route path='/quienes_somos' element={<QuienesSomos />}/>
         <Route path='/faqs' element={<Faqs />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/usabilidad' element={<Home />} />
       </Routes>
       <Footer />
     </div>
