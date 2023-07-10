@@ -16,11 +16,8 @@ export const MenuNav = () => {
             <Nav.Link href='/' aria-label='Inicio' className='menu-link'>Inicio</Nav.Link>
             <Nav.Link href='/ver_apuntes' aria-label='Ver Apuntes' className='menu-link'>Ver Apuntes</Nav.Link>
             <Nav.Link href='/subir_apuntes' aria-label='Subir Apuntes' className='menu-link'>Subir Apuntes</Nav.Link>
-            {/* <NavDropdown title="Opciones" id="basic-nav-dropdown" className='dropdown ml-auto'>
-              <NavDropdown.Item href="/">Vuelta al home</NavDropdown.Item>
-              <NavDropdown.Item href="#QuienesSomos" aria-label='Quienes somos'>Quiénes Somos</NavDropdown.Item>
-            </NavDropdown> */}
             <Nav.Link href='/quienes_somos' aria-label='Quienes somos' className='menu-link'>Quienes Somos</Nav.Link>
+            <Nav.Link href='/login' aria-label='Inicio de Sesión' className='menu-link'>Iniciar Sesión</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

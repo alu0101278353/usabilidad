@@ -6,6 +6,7 @@ import { VerApuntes } from './pages/VerApuntes';
 import { Home } from './pages/Home';
 import { Footer } from './components/Footer';
 import { QuienesSomos } from './pages/QuienesSomos';
+import { Login } from './pages/Login';
 import { Faqs } from './pages/faqs';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/ver_apuntes' element={<VerApuntes />}/>
         <Route path='/quienes_somos' element={<QuienesSomos />}/>
         <Route path='/faqs' element={<Faqs />} />
+        <Route path='/login' element={<Login />} />
       </Routes>
       <Footer />
     </div>
